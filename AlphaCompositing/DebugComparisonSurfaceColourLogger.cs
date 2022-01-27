@@ -10,7 +10,7 @@ namespace AlphaCompositing
         {
             foreach (var (overlayColor, calculatedColor) in surfaceComparisonColours)
             {
-                Debug.WriteLine($"{overlayColor}, {calculatedColor}");
+                Debug.WriteLine($"{overlayColor.ToRgb()}, {calculatedColor.ToRgb()}");
             }
         }
     }
